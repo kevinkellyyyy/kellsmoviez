@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login Ahahahah</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+		<script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+		
+
+	</head>
+	<body>
+		<div ng-controller="backGerak" class="page-container">
+			<div class="page-back"  ng-mousemove="mospos($event)" style="margin-left: {{moveX}}px; margin-top: {{moveY}}px;">
+				
+			</div>
+		</div>
+		
+		<div class="wrapper" style="z-index: 1;">
+					<header>
+						<nav  ng-class="{'activeM' : isActive}" ng-click="activedrop()">
+							<div class="menu-icon">
+								<i class="fa fa-bars fa-2x" style="color: red"></i>
+							</div>
+							<div class="logologin">
+								Kell's<br>&emsp; Moviez  . . .
+							</div>
+							
+								<!-- <ul>
+									<li><a class="active">Home</a></li>
+									<li><a href="/#/aboutMe">About Me</a></li>
+									<li><a href="/#/" ng-click="logOut()">Log Out</a></li>
+								</ul> -->
+							
+						</nav>
+					</header>
+				</div>
+		<div ng-controller="loginController" class="logIn">
+			
+				<form action="/" id="myLogin">
+					<h2>Log In</h2><br>
+					<input type="text" id="username" ng-model="username" placeholder="Enter Username"><br>
+					<input type="password" id="password" ng-model="password" placeholder="Enter Password"><br>
+					<button class="butlog" type="button" ng-click="submit()">Log in</button>
+				</form>
+			
+		</div>
+		<footer class="footer">
+			<div class="container">
+				<span class="text-muted" style="color: red;">UAS PTI 2018 &emsp; || &emsp; © Kevin Kelly Isyanta - 00000014910</span>
+			</div>
+		</footer>
+	</body>
+</html>

@@ -1,0 +1,23 @@
+Reference :
+
+- Database API
+https://developers.themoviedb.org/3/movies/get-now-playing (Data Now Playing)
+https://developers.themoviedb.org/3/movies/get-movie-details (Detail masing masing movie per id)
+
+- Agular routing and API get config
+https://angularjs.org/
+https://github.com/dotannetix/themoviedbapp (sebagai referensi cara get API)
+https://www.youtube.com/watch?v=aL95O4ruun0&t=2s (cara log in)
+https://www.youtube.com/watch?v=DHqHynuLXRE (cara agar kalo setiap mau masuk page WAJIB login dulu, jika baypass (localhost.../home) gak akan bisa, otomatis direct ke log in)
+https://www.youtube.com/watch?v=PTNjqUsj6EY&t=3755s (Cara memanggil API)
+https://www.youtube.com/watch?v=YUXirJ5-Uug&t=20s (cara untuk Routing)
+
+- Styling
+https://jquery.com/download/
+https://www.youtube.com/watch?v=NTyvENRwJK4 (belajar nav bar sticky dan responsive)
+https://www.youtube.com/watch?v=j1glP2kLaWc&t=21s (untuk  background gerak sesuai mouse pada login (video tutorial menggunakan jQuery, namun saya experimen dengan mengubahnya menjadi angular)
+https://tympanus.net/codrops/2012/01/02/fullscreen-background-image-slideshow-with-css3/ (untuk background slideshow halaman about)
+https://sweetalert.js.org/guides/ (untuk alert)
+https://fontawesome.com/ (untuk gambar fa fa bars instagram dan whatsapp)
+https://fonts.google.com/ (untuk semua jenis font yg digunakan)
+
